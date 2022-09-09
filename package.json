@@ -1,0 +1,40 @@
+{
+  "name": "trebol-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.3",
+    "@tanstack/match-sorter-utils": "^8.1.1",
+    "@tanstack/react-table": "^8.5.13",
+    "primeicons": "^5.0.0",
+    "primereact": "^8.4.0",
+    "react": "^18.2.0",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6",
+    "react-to-print": "^2.14.7",
+    "react-uuid": "^1.0.2",
+    "styled-components": "^5.3.5",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "eslint": "^8.20.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "vite": "^3.0.0"
+  }
+}
